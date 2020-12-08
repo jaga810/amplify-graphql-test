@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-graphqltest-dev-204840-authRole",
+      "UnauthRoleArn": "arn:aws:iam::614597883199:role/amplify-graphqltest-dev-204840-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::614597883199:role/amplify-graphqltest-dev-204840-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-graphqltest-dev-204840-deployment",
+      "UnauthRoleName": "amplify-graphqltest-dev-204840-unauthRole",
+      "StackName": "amplify-graphqltest-dev-204840",
+      "StackId": "arn:aws:cloudformation:us-east-1:614597883199:stack/amplify-graphqltest-dev-204840/ff4871a0-37b8-11eb-975e-0a60596032c9",
+      "AmplifyAppId": "d1h97gpvlkw0je"
+    },
+    "categories": {
+      "auth": {
+        "graphqltest92905377": {}
+      }
+    }
+  }
+}

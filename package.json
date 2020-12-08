@@ -1,0 +1,23 @@
+{
+  "name": "graphql-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start-server": "amplify mock api",
+    "ci": "start-server-and-test start-server http://localhost:20002 test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-jest": "^26.6.3",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "base64url": "^3.0.1",
+    "crypto": "^1.0.1",
+    "graphql": "^15.4.0",
+    "graphql-request": "^3.3.0",
+    "jest": "^26.6.3",
+    "start-server-and-test": "^1.11.6"
+  }
+}
