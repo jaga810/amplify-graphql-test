@@ -3,7 +3,6 @@ type Todo
   @auth(
     rules: [
       {allow: owner, ownerField: "owner", operations: [create, delete, read]},
-      # {allow: private, operations:[update]}
     ]
   )
 {
