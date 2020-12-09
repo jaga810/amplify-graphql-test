@@ -71,4 +71,8 @@ describe('Todo Model', () => {
     const updatedByOthers =  clients[1].request(updateTodo, {input: {id: created.createTodo.id, name: ''}});
     await expect(updatedByOthers).rejects.toThrowError('ConditionalCheckFailedException');
   });
+
+  test('must fail', () => {
+    expect(0).toStrictEqual(1);
+  })
 });

@@ -2,7 +2,7 @@ type Todo
   @model
   @auth(
     rules: [
-      {allow: owner, ownerField: "owner", operations: [create, delete, read]},
+      {allow: owner, ownerField: "owner", operations: [create, update, delete, read]},
     ]
   )
 {
