@@ -53,6 +53,11 @@ clients.push(new GraphQLClient('http://localhost:20002/graphql', {
 }));
 
 describe('Todo Model', () => {
+  //[追加部分]必ず失敗するテスト
+  test('must fail', () => {
+    expect(0).toStrictEqual(1);
+  })
+
   test('Only owner can update their todos', async () => {
     const testTodo = {
       name: 'Test task',
